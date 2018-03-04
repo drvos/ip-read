@@ -1,0 +1,7 @@
+[PerlTidy]
+select = **/*.{pl,pm,t}
+argv = -noll -q
+ 
+[PodTidy]
+select = lib/**/*.{pm,pod}
+argv = --column=100
