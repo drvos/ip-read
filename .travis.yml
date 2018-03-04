@@ -13,4 +13,5 @@ install:
     - cpanm --notest Test::Code::TidyAll
     - cpanm --notest Test::Script
     - cpanm --notest Test::More
+    - cpanm --notest Test::Version
     - cpanm --notest File::Find::Rule
