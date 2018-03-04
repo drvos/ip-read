@@ -9,4 +9,5 @@ install:
 
     # install the modules just used here
     - cpanm --notest Perl::Tidy
+    - cpanm --notest Pod::Tidy
     - cpanm --notest Test::Code::TidyAll
