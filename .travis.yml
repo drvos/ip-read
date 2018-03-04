@@ -11,3 +11,6 @@ install:
     - cpanm --notest Perl::Tidy
     - cpanm --notest Pod::Tidy
     - cpanm --notest Test::Code::TidyAll
+    - cpanm --notest Test::Script
+    - cpanm --notest Test::More
+    - cpanm --notest File::Find::Rule
