@@ -14,3 +14,5 @@ cover_db/
 inc/
 
 .tidyall.d
+
+.DS_Store
